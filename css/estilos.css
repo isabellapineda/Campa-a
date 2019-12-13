@@ -4,6 +4,8 @@
     -moz-osx-font-smoothing: grayscale;
 }
 
+
+
 html {
     scroll-behavior: smooth;
 }
@@ -256,11 +258,16 @@ section{
 
 }
 .logo_contribuidores{
-    width: 10%;
+    width:150px;
 
 }
 #Contribuidores p{
     font-size: 15px;
+}
+#Comercios{
+    height: 100%;
+    width: 100%;
+
 }
 .servicio{
     max-width: 100px;
@@ -277,7 +284,11 @@ section{
 
 }
 
-
+.actividades{
+    width: 100%;
+    padding: 5px 0px 5px 0px !important;
+    height: 100%;
+}
 
 
 @media (max-width: 575.98px) { 
@@ -292,6 +303,9 @@ section{
         padding: 20px 0 !important;
         font-size: 20px;
         
+    }
+    .servicio{
+        margin: 20px 20px 20px 20px !important;
     }
 
  }

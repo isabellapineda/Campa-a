@@ -20,7 +20,7 @@ $mensaje .= "Celular: " . $_POST['Celular'] . " \r\n";
 $mensaje .= "Web o RRSS: " . $_POST['web'] . " \r\n";
 $mensaje .= "Enviado el " . date('d/m/Y', time());
 
-$para = 'contacto@yoelijopymecolina.cl';
+$para = "contacto@yoelijopymecolina.cl, directora@vallesdelsol.cl, jgarrido@vallesdelsol.cl";
 $asunto = 'Mensaje desde #YOELIJOPYMECOLINA';
 
 mail($para, $asunto, utf8_decode($mensaje), $header);
